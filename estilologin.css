@@ -1,0 +1,89 @@
+*{ /*estilo en general*/
+	margin:0;
+	padding:0;
+}
+body{ /*imagen de fondo*/
+	background-image:url(home/images/campo.jpeg);	
+	background-size:cover;
+}
+#contenedor{ /*estilo de la pagina*/
+	width:1080px;
+	margin:auto;
+	font-family: Verdana, Arial, Sans-serif;
+	margin-top:50px;
+	margin-bottom: 20px;
+	text-align:justify;
+}
+.menu li {
+	position:relative;
+}
+ul {
+	list-style:none;
+}
+.menu > li {
+	float:left;
+}
+.menu li{
+	text-decoration:none;
+	display:block;
+	padding: 20px 22px;
+	color:white;
+	background-color:black;
+	position:relative;
+}
+.barra{
+	width:1090px;
+	height:62px;
+	background-color:black;
+}
+#titulo a{ 
+	text-decoration:none;
+	text-align:right;
+	display:block;
+	padding: 18px;
+	color:white;
+	margin-right:40px;
+	background-color:black;
+	font-size:22px;
+}
+.principal{
+	width:1080px;
+	height:500px;
+	border:solid;
+	background-color:green;
+	opacity: 0.85;
+	
+}
+#uno{
+	width:400px;
+	height:300px;
+	float:left;
+	border:solid black; 
+	padding:20px;
+	margin-left:50px;
+	margin-top: 50px;
+	text-align:justify;
+	color:white;
+}
+#dos{
+	width:400px;
+	height:300px;
+	float:left;
+	border:solid black; 
+	padding:20px;
+	margin-left:50px;
+	margin-top: 50px;
+	text-align:justify;
+	color:white;
+}
+button{
+	width:75px;
+	height:50px;
+	color:white;
+	border:solid;
+	background-color:black;
+	margin-left:150px;
+}
+h1{
+	text-align:center;
+}
