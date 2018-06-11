@@ -1,0 +1,117 @@
+*{ /*estilo en general*/
+	margin:0;
+	padding:0;
+}
+body{ /*imagen de fondo*/
+	background-image:url(images/campo.jpeg);	
+	background-size:cover;
+}
+#contenedor{ /*estilo de la pagina*/
+	width:1080px;
+	margin:auto;
+	padding:auto;
+	border:solid;
+	font-family: Verdana, Arial, Sans-serif;
+	margin-top:50px;
+	margin-bottom: 20px;
+	text-align:justify;
+}
+.barra{ /*menu desplegable*/
+	cursor:pointer;
+	align:center;
+}
+.cabecera{
+	text-align:center;
+	margin-top:10px;
+	text-shadow: white 5px 5px 5px ;
+	height:250px;
+	margin:auto;
+	padding:auto;
+	background-color:black;
+}
+.menu li {
+	position:relative;
+}
+ul {
+	list-style:none;
+}
+.menu > li {
+	float:left;
+}
+.menu li a {
+	text-decoration:none;
+	display:block;
+	padding: 20px 22px;
+	color:white;
+	background-color:black;
+	position:relative;
+}
+.menu li a:hover {
+	background-color:red;
+}
+.menu li > ul {
+	display:none;
+	min-width:140px;
+	position:absolute;
+
+}
+.menu li:hover >ul {
+	display:block;
+}
+.barra{
+	height:62px;
+	background-color:black;
+}
+#titulo a{ /*crea tu banda*/
+	text-decoration:none;
+	text-align:right;
+	display:block;
+	padding: 18px;
+	color:white;
+	margin-right:40px;
+	background-color:black;
+	font-size:22px;
+	cursor:default;
+}
+.principal{
+	width:1080px;
+	height:600px;
+	background-color:green;
+	opacity:0.85;
+}
+#uno {
+	width:150px;
+	height:300px;
+}
+#dos{
+	width:660px;
+	height:300px;
+}
+#uno, #dos{
+	float:left;
+	border:solid black; 
+	padding:20px;
+	margin-left:50px;
+	margin-top: 50px;
+	text-align:justify;
+	color:white;
+}
+h1{
+	text-align:center;
+	text-align:center;
+	color:white;
+	
+}
+#pie{
+	width:950px;
+	height:100px;
+	border:solid;
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+
+}
+#pie h1{
+	margin-top:30px;
+}
+
